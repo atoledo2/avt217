@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+#gallery {
+ width:490px;
+ background-color:lightblue;
+ padding:5px;
+}
+#gallery img { 
+	padding:5px;
+}
