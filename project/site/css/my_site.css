@@ -277,6 +277,11 @@ textarea{
   margin-left:20px;
   float: left;
   display: inline-block;
+  text-decoration: none;
+}
+
+#sns a{
+  text-decoration: none;
 }
 
 #sns img{
