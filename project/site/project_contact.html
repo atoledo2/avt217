@@ -9,6 +9,7 @@
 <!--font links-->
 <link rel="stylesheet" type="text/css" href="<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -29,33 +30,38 @@
 <div class="main">
   <h2>Contact Me</h2>
 
- <div class="icons">
- 	<img src="img/name-icon.png">
- 	<br>
- 	<img src="img/email-icon.png" style="margin-top: 20px;">
- </div>
-
 <div class="message">
 
   <form action="/action_page.php">
+  		<div class="input-box">
+  			<i class="material-icons"> account_circle </i>
+    		<input class="input-field" type="text" id="fname" name="firstname" placeholder="Your name">
+    	</div>
 
-    	<input type="text" id="fname" name="firstname" placeholder="Your name">
-   		<input type="text" id="email" name="lastname" placeholder="Your email">
+    	<div class="input-box">
+    		<i class="material-icons"> email </i>
+   			<input class="input-field" type="text" id="email" name="lastname" placeholder="Your email">
+   		</div>
+
    		<textarea id="message" name="message" placeholder="Type your message here"></textarea>
-    <input type="submit" id="submit" value="Submit">
-  </form>
+    	<input type="submit" id="submit" value="Submit">
+    </form>
 
 </div>  
 
-<div id="sns">
-	<h3>you can also reach me here:</h3>
-	<img src="img/email.png">
-	<p>My email: <br> andreactoledoa@hotmail.com </p>
-</div>
+<div class="sns">
 
-<div id="sns">
-	<a href="https://www.linkedin.com/in/andrea-toledo-66a2b6176" target="_blank" rel="noopener noreferrer"><img src="img/linkedin.png">
-	<p>My LinkedIn</p></a>
+	<h3>you can also reach me here:</h3>
+
+	<div id="sns">
+		<img src="img/email.png">
+		<p>My email: <br> andreactoledoa@hotmail.com </p>
+	</div>
+
+	<div id="sns" style="margin-left: 20%;">
+		<a href="https://www.linkedin.com/in/andrea-toledo-66a2b6176" target="_blank" rel="noopener noreferrer"><img src="img/linkedin.png">
+		<p>My LinkedIn</p></a>
+	</div>
 </div>
 
 </div>
